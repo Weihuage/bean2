@@ -694,6 +694,12 @@ display: flex;
 .B-container{
   text-align:center;
 }
+.btn{
+  margin-left:50%;
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
 /* End bootstrap section */
 /* clear up*/
 .row:before,
