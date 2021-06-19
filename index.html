@@ -4,6 +4,8 @@
 <meta name="viewpoint" content="width=device-width,inital-scale=1">
 
 <link rel="stylesheet" href="test2.css">
+<script type="text/javascript" src="declarativeToggle.js"></script>
+
 <title>The first webpage</title>
 </head>
 
@@ -14,7 +16,10 @@
         <h1>Mr. Bean's home page</h1>
         <p>The very famous ragdoll cat in Bellevue</p>
     
-   <nav class="site-nav">
+  <!--add sandwich bar-->
+  <span data-toggle-target=".site-nav" class="toggle-button">Menu</span>
+
+        <nav class="site-nav">
        <ul class="group">
            <li><a href="#">Home</a></li>
            <li><a href="about.html">About</a></li>
