@@ -674,6 +674,7 @@ display: flex;
 .toggle-btn {
   display: none;
 }
+
 @media screen and (max-width:767px){
   .toggle-btn-visible {
     display: block;
@@ -687,7 +688,6 @@ display: flex;
     display: block;
   }
 }
-
 /* End Reveal & hidden style */
 
 /* clear up*/
