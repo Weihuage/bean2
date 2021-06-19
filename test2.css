@@ -670,6 +670,26 @@ display: flex;
 }
 /* End About page three-section part */
 
+/* reveal & hidden style */
+.toggle-btn {
+  display: none;
+}
+@media screen and (max-width:767px){
+  .toggle-btn-visible {
+    display: block;
+  }
+
+  .toggle-target-hidden {
+    display: none;
+  }
+
+  .toggle-target-expanded {
+    display: block;
+  }
+}
+
+/* End Reveal & hidden style */
+
 /* clear up*/
 .row:before,
 .row:after,
