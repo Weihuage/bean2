@@ -690,6 +690,11 @@ display: flex;
 }
 /* End Reveal & hidden style */
 
+/* Bootstrap section*/
+.B-container{
+  text-align:center;
+}
+/* End bootstrap section */
 /* clear up*/
 .row:before,
 .row:after,
